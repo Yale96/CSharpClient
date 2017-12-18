@@ -1,0 +1,33 @@
+E:\School\S5\Stage\Tutorials\Visual Studio\MessageServer\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.deps.json
+E:\School\S5\Stage\Tutorials\Visual Studio\MessageServer\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.runtimeconfig.json
+E:\School\S5\Stage\Tutorials\Visual Studio\MessageServer\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.runtimeconfig.dev.json
+E:\School\S5\Stage\Tutorials\Visual Studio\MessageServer\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.dll
+E:\School\S5\Stage\Tutorials\Visual Studio\MessageServer\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.pdb
+E:\School\S5\Stage\Tutorials\Visual Studio\MessageServer\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.csprojResolveAssemblyReference.cache
+E:\School\S5\Stage\Tutorials\Visual Studio\MessageServer\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.csproj.CoreCompileInputs.cache
+E:\School\S5\Stage\Tutorials\Visual Studio\MessageServer\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.AssemblyInfoInputs.cache
+E:\School\S5\Stage\Tutorials\Visual Studio\MessageServer\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.AssemblyInfo.cs
+E:\School\S5\Stage\Tutorials\Visual Studio\MessageServer\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.dll
+E:\School\S5\Stage\Tutorials\Visual Studio\MessageServer\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.pdb
+E:\School\S5\Stage\Code\Log data naar database\MessageServer\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.deps.json
+E:\School\S5\Stage\Code\Log data naar database\MessageServer\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.runtimeconfig.json
+E:\School\S5\Stage\Code\Log data naar database\MessageServer\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.runtimeconfig.dev.json
+E:\School\S5\Stage\Code\Log data naar database\MessageServer\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.dll
+E:\School\S5\Stage\Code\Log data naar database\MessageServer\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.pdb
+E:\School\S5\Stage\Code\Log data naar database\MessageServer\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.csprojResolveAssemblyReference.cache
+E:\School\S5\Stage\Code\Log data naar database\MessageServer\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.csproj.CoreCompileInputs.cache
+E:\School\S5\Stage\Code\Log data naar database\MessageServer\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.AssemblyInfoInputs.cache
+E:\School\S5\Stage\Code\Log data naar database\MessageServer\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.AssemblyInfo.cs
+E:\School\S5\Stage\Code\Log data naar database\MessageServer\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.dll
+E:\School\S5\Stage\Code\Log data naar database\MessageServer\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.pdb
+E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.deps.json
+E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.runtimeconfig.json
+E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.runtimeconfig.dev.json
+E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.dll
+E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.pdb
+E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.csprojResolveAssemblyReference.cache
+E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.csproj.CoreCompileInputs.cache
+E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.AssemblyInfoInputs.cache
+E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.AssemblyInfo.cs
+E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.dll
+E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.pdb

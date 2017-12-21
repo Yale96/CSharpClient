@@ -51,22 +51,21 @@ namespace MessageServer
             // first read the Id
             msg.Id = reader.ReadInt32();
 
-            // length of first name in bytes.
+            // length of content in bytes.
             int length = reader.ReadInt32();
 
-            // read the name bytes into the byte array.
+            // read the content bytes into the byte array.
             // recall that java side is writing two bytes for every character.
-            byte[] nameArray = reader.ReadBytes(length);
-            msg.Content = Encoding.UTF8.GetString(nameArray);
-
-            
-
+            byte[] contentArray = reader.ReadBytes(length);
+            msg.Content = Encoding.UTF8.GetString(contentArray);
+                        
             Console.WriteLine(msg.Id);
             Console.WriteLine(msg.Content);
 
             System.Threading.Thread.Sleep(5);
 
             Console.WriteLine("Writing data...");
+
             // now reflect back the same structure.
             BinaryWriter bw = new BinaryWriter(ns);
 

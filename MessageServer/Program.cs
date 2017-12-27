@@ -26,7 +26,7 @@ namespace MessageServer
 
             while (true)
             {
-
+                
                 using (TcpClient client = listener.AcceptTcpClient())
                 {
                     try
@@ -43,6 +43,7 @@ namespace MessageServer
 
         static void Read(TcpClient client)
         {
+            Database db = new Database();
             Console.WriteLine("Got connection: {0}", DateTime.Now);
             NetworkStream ns = client.GetStream();
             BinaryReader reader = new BinaryReader(ns);
@@ -51,30 +52,31 @@ namespace MessageServer
             // first read the Id
             msg.Id = reader.ReadInt32();
 
-            // length of first name in bytes.
+            // length of content in bytes.
             int length = reader.ReadInt32();
 
-            // read the name bytes into the byte array.
+            // read the content bytes into the byte array.
             // recall that java side is writing two bytes for every character.
-            byte[] nameArray = reader.ReadBytes(length);
-            msg.Content = Encoding.UTF8.GetString(nameArray);
-
-            
-
+            byte[] contentArray = reader.ReadBytes(length);
+            msg.Content = Encoding.UTF8.GetString(contentArray);
+                        
             Console.WriteLine(msg.Id);
             Console.WriteLine(msg.Content);
 
-            System.Threading.Thread.Sleep(5);
+            //System.Threading.Thread.Sleep(5);
 
-            Console.WriteLine("Writing data...");
-            // now reflect back the same structure.
-            BinaryWriter bw = new BinaryWriter(ns);
+            //Console.WriteLine("Writing data...");
 
-            bw.Write(msg.Id);
-            byte[] data = Encoding.UTF8.GetBytes(msg.Content);
-            bw.Write(data.Length);
-            bw.Write(data);
+            //// now reflect back the same structure.
+            //BinaryWriter bw = new BinaryWriter(ns);
 
+            //bw.Write(msg.Id);
+            //byte[] data = Encoding.UTF8.GetBytes(msg.Content);
+            //bw.Write(data.Length);
+            //bw.Write(data);
+
+            db.WriteToFile(msg.Id.ToString());
+            db.WriteToFile(msg.Content);
             Console.WriteLine("Writing data...DONE");
 
             client.Client.Shutdown(SocketShutdown.Both);

@@ -674,9 +674,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "H:\\School\\Software\\Stage\\Code\\C# Java\\C# Client\\MessageServer\\MessageServer.csproj",
-      "projectName": "MessageServer",
-      "projectPath": "H:\\School\\Software\\Stage\\Code\\C# Java\\C# Client\\MessageServer\\MessageServer.csproj",
+      "projectUniqueName": "H:\\School\\Software\\Stage\\Code\\C# Java\\C# Client\\MessageServer\\MessageClient.csproj",
+      "projectName": "MessageClient",
+      "projectPath": "H:\\School\\Software\\Stage\\Code\\C# Java\\C# Client\\MessageServer\\MessageClient.csproj",
       "packagesPath": "C:\\Users\\Yannick van Leeuwen\\.nuget\\packages\\",
       "outputPath": "H:\\School\\Software\\Stage\\Code\\C# Java\\C# Client\\MessageServer\\obj\\",
       "projectStyle": "PackageReference",

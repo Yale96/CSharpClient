@@ -1,0 +1,11 @@
+H:\School\Software\Stage\Code\C# Java\C# Client\MessageServer\bin\Debug\netcoreapp2.0\MessageClient.deps.json
+H:\School\Software\Stage\Code\C# Java\C# Client\MessageServer\bin\Debug\netcoreapp2.0\MessageClient.runtimeconfig.json
+H:\School\Software\Stage\Code\C# Java\C# Client\MessageServer\bin\Debug\netcoreapp2.0\MessageClient.runtimeconfig.dev.json
+H:\School\Software\Stage\Code\C# Java\C# Client\MessageServer\bin\Debug\netcoreapp2.0\MessageClient.dll
+H:\School\Software\Stage\Code\C# Java\C# Client\MessageServer\bin\Debug\netcoreapp2.0\MessageClient.pdb
+H:\School\Software\Stage\Code\C# Java\C# Client\MessageServer\obj\Debug\netcoreapp2.0\MessageClient.csprojResolveAssemblyReference.cache
+H:\School\Software\Stage\Code\C# Java\C# Client\MessageServer\obj\Debug\netcoreapp2.0\MessageClient.csproj.CoreCompileInputs.cache
+H:\School\Software\Stage\Code\C# Java\C# Client\MessageServer\obj\Debug\netcoreapp2.0\MessageClient.AssemblyInfoInputs.cache
+H:\School\Software\Stage\Code\C# Java\C# Client\MessageServer\obj\Debug\netcoreapp2.0\MessageClient.AssemblyInfo.cs
+H:\School\Software\Stage\Code\C# Java\C# Client\MessageServer\obj\Debug\netcoreapp2.0\MessageClient.dll
+H:\School\Software\Stage\Code\C# Java\C# Client\MessageServer\obj\Debug\netcoreapp2.0\MessageClient.pdb

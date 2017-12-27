@@ -664,8 +664,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yanni\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\Yannick van Leeuwen\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -674,20 +673,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\School\\S5\\Stage\\Microservices\\Code\\Log data naar database\\Server\\MessageServer\\MessageServer.csproj",
+      "projectUniqueName": "H:\\School\\Software\\Stage\\Code\\C# Java\\Server\\MessageServer\\MessageServer.csproj",
       "projectName": "MessageServer",
-      "projectPath": "E:\\School\\S5\\Stage\\Microservices\\Code\\Log data naar database\\Server\\MessageServer\\MessageServer.csproj",
-      "packagesPath": "C:\\Users\\yanni\\.nuget\\packages\\",
-      "outputPath": "E:\\School\\S5\\Stage\\Microservices\\Code\\Log data naar database\\Server\\MessageServer\\obj\\",
+      "projectPath": "H:\\School\\Software\\Stage\\Code\\C# Java\\Server\\MessageServer\\MessageServer.csproj",
+      "packagesPath": "C:\\Users\\Yannick van Leeuwen\\.nuget\\packages\\",
+      "outputPath": "H:\\School\\Software\\Stage\\Code\\C# Java\\Server\\MessageServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\yanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\Yannick van Leeuwen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -712,7 +709,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0.0",
             "autoReferenced": true
           }
         },

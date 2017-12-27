@@ -31,3 +31,14 @@ E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServe
 E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.AssemblyInfo.cs
 E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.dll
 E:\School\S5\Stage\Microservices\Code\Log data naar database\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.pdb
+H:\School\Software\Stage\Code\C# Java\Server\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.deps.json
+H:\School\Software\Stage\Code\C# Java\Server\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.runtimeconfig.json
+H:\School\Software\Stage\Code\C# Java\Server\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.runtimeconfig.dev.json
+H:\School\Software\Stage\Code\C# Java\Server\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.dll
+H:\School\Software\Stage\Code\C# Java\Server\MessageServer\bin\Debug\netcoreapp2.0\MessageServer.pdb
+H:\School\Software\Stage\Code\C# Java\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.csprojResolveAssemblyReference.cache
+H:\School\Software\Stage\Code\C# Java\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.csproj.CoreCompileInputs.cache
+H:\School\Software\Stage\Code\C# Java\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.AssemblyInfoInputs.cache
+H:\School\Software\Stage\Code\C# Java\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.AssemblyInfo.cs
+H:\School\Software\Stage\Code\C# Java\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.dll
+H:\School\Software\Stage\Code\C# Java\Server\MessageServer\obj\Debug\netcoreapp2.0\MessageServer.pdb

@@ -63,18 +63,6 @@ namespace MessageServer
             Console.WriteLine(msg.Id);
             Console.WriteLine(msg.Content);
 
-            //System.Threading.Thread.Sleep(5);
-
-            //Console.WriteLine("Writing data...");
-
-            //// now reflect back the same structure.
-            //BinaryWriter bw = new BinaryWriter(ns);
-
-            //bw.Write(msg.Id);
-            //byte[] data = Encoding.UTF8.GetBytes(msg.Content);
-            //bw.Write(data.Length);
-            //bw.Write(data);
-
             db.WriteToFile(msg.Id.ToString());
             db.WriteToFile(msg.Content);
             Console.WriteLine("Writing data...DONE");

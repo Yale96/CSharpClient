@@ -14,11 +14,16 @@ namespace MessageServer
         public void WriteToFile(string content)
         {
             using (System.IO.StreamWriter file =
-            new System.IO.StreamWriter(@"H:\test.txt"))
+            new System.IO.StreamWriter(@"E:\test.txt"))
             {
 
                 file.WriteLine(content);
             }
+        }
+
+        public void WriteToDatabase(string content)
+        {
+
         }
     }
 }

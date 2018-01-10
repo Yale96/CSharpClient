@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MySql.Data.MySqlClient;
 
 namespace MessageServer
 {
@@ -23,20 +24,26 @@ namespace MessageServer
 
         public void WriteToDatabase()
         {
-            MySql.Data.MySqlClient.MySqlConnection conn;
+            MySqlConnection conn;
+            MySqlCommand comm;
+            MySqlDataReader reader;
+            string Query = "insert into loketdb.message(Applicatie,Tijdstip,Loglevel,Locatie,Data) values('" + "Test" + "','" + "Test" + "','" + "Test" + "','" + "Test" + "','" + "Test" + "');";
             string connectionString = "server=127.0.0.1;uid=Yannick;pwd=test;database=loketdb";
+            
             
             try
             {
-                conn = new MySql.Data.MySqlClient.MySqlConnection(connectionString);
+                conn = new MySqlConnection(connectionString);
+                comm = new MySqlCommand(Query, conn);
                 conn.Open();
-                System.Console.WriteLine("Connection open");
+                Console.WriteLine("Connection open");
+                reader = comm.ExecuteReader();
                 conn.Close();
-                System.Console.WriteLine("Connection closed");
+                Console.WriteLine("Connection closed");
             }
-            catch(MySql.Data.MySqlClient.MySqlException ex)
+            catch(MySqlException ex)
             {
-                System.Console.Write(ex.ToString());
+                Console.Write(ex.ToString());
             }
         }
     }

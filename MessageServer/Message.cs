@@ -6,8 +6,6 @@ namespace MessageServer
 {
     public class Message
     {
-        public int Id;
-        public string Content;
         public string Applicatie;
         public string Tijdstip;
         public string Loglevel;

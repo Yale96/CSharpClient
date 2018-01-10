@@ -22,12 +22,12 @@ namespace MessageServer
             }
         }
 
-        public void WriteToDatabase()
+        public void WriteToDatabase(Message m)
         {
             MySqlConnection conn;
             MySqlCommand comm;
             MySqlDataReader reader;
-            string Query = "insert into loketdb.message(Applicatie,Tijdstip,Loglevel,Locatie,Data) values('" + "Test" + "','" + "Test" + "','" + "Test" + "','" + "Test" + "','" + "Test" + "');";
+            string Query = "insert into loketdb.message(Applicatie,Tijdstip,Loglevel,Locatie,Data) values('" + m.Applicatie + "','" + m.Tijdstip + "','" + m.Loglevel + "','" + m.Locatie + "','" + m.Data + "');";
             string connectionString = "server=127.0.0.1;uid=Yannick;pwd=test;database=loketdb";
             
             

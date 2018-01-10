@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.IO;
 using System.Net.Sockets;
 using System.Text;
@@ -49,8 +50,8 @@ namespace MessageServer
             BinaryReader reader = new BinaryReader(ns);
 
             Message msg = new Message();
-            // first read the Id
-            msg.Id = reader.ReadInt32();
+            //// first read the Id
+            //msg.Id = reader.ReadInt32();
 
             // length of content in bytes.
             int length = reader.ReadInt32();
@@ -58,15 +59,19 @@ namespace MessageServer
             // read the content bytes into the byte array.
             // recall that java side is writing two bytes for every character.
             byte[] contentArray = reader.ReadBytes(length);
-            msg.Content = Encoding.UTF8.GetString(contentArray);
+            msg = JsonConvert.DeserializeObject<Message>(Encoding.UTF8.GetString(contentArray));
+            //msg.Content = Encoding.UTF8.GetString(contentArray);
                         
-            Console.WriteLine(msg.Id);
-            Console.WriteLine(msg.Content);
+            Console.WriteLine(msg.Applicatie);
+            Console.WriteLine(msg.Tijdstip);
+            Console.WriteLine(msg.Loglevel);
+            Console.WriteLine(msg.Locatie);
+            Console.WriteLine(msg.Data);
 
-            db.WriteToFile(msg.Id.ToString());
-            db.WriteToFile(msg.Content);
-            Console.WriteLine("Writing data...DONE");
-            db.WriteToDatabase();
+            db.WriteToFile(msg.ToString());
+            Console.WriteLine("Writing data to file is done");
+            db.WriteToDatabase(msg);
+            Console.WriteLine("Writing data to DB is done");
 
             client.Client.Shutdown(SocketShutdown.Both);
             ns.Close();

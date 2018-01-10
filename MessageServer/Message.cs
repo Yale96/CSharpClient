@@ -16,5 +16,10 @@ namespace MessageServer
         {
 
         }
+
+        public override string ToString()
+        {
+            return "Applicatie: " + Applicatie + ", Tijdstip: " + Tijdstip + ", Loglevel: " + Loglevel + ", Locatie: " + Locatie + ", Data: " + Data;
+        }
     }
 }

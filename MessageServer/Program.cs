@@ -50,8 +50,6 @@ namespace MessageServer
             BinaryReader reader = new BinaryReader(ns);
 
             Message msg = new Message();
-            //// first read the Id
-            //msg.Id = reader.ReadInt32();
 
             // length of content in bytes.
             int length = reader.ReadInt32();
@@ -60,16 +58,12 @@ namespace MessageServer
             // recall that java side is writing two bytes for every character.
             byte[] contentArray = reader.ReadBytes(length);
             msg = JsonConvert.DeserializeObject<Message>(Encoding.UTF8.GetString(contentArray));
-            //msg.Content = Encoding.UTF8.GetString(contentArray);
                         
-            Console.WriteLine(msg.Applicatie);
-            Console.WriteLine(msg.Tijdstip);
-            Console.WriteLine(msg.Loglevel);
-            Console.WriteLine(msg.Locatie);
-            Console.WriteLine(msg.Data);
+            Console.WriteLine(msg.ToString());
 
             db.WriteToFile(msg.ToString());
             Console.WriteLine("Writing data to file is done");
+
             db.WriteToDatabase(msg);
             Console.WriteLine("Writing data to DB is done");
 

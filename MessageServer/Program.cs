@@ -66,6 +66,7 @@ namespace MessageServer
             db.WriteToFile(msg.Id.ToString());
             db.WriteToFile(msg.Content);
             Console.WriteLine("Writing data...DONE");
+            db.WriteToDatabase();
 
             client.Client.Shutdown(SocketShutdown.Both);
             ns.Close();
